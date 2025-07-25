@@ -14,8 +14,8 @@ app.http('number-summation', {
             return { status: 400, body: 'Invalid input. Please provide two numbers.' };
         }
 
-        const sum = firstNumber + seconodNumber;
-        const responseMessage = `The sum of ${firstNumber} and ${seconodNumber} is ${sum}.`;
+        const sum = firstNumber + secondNumber;
+        const responseMessage = `The sum of ${firstNumber} and ${secondNumber} is ${sum}.`;
 
        
         return {status: 200, body: responseMessage}
